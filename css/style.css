@@ -14,10 +14,20 @@
   position: fixed;
   background: #666;
   opacity: 0.9;
-  height: 100px;
+  height: 200px;
 }
 .header.scroll .menu__link, .header.scroll .header__logo {
   opacity: 1;
+}
+@media (min-width: 479.98px) {
+  .header.scroll {
+    height: 230px;
+  }
+}
+@media (min-width: 991.98px) {
+  .header.scroll {
+    height: 100px;
+  }
 }
 
 .header__container {
